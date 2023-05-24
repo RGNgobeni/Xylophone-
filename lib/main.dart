@@ -16,7 +16,6 @@ class XylophoneApp extends StatelessWidget {
   Expanded buildKey({Color color, int soundNumber}){                    //The function will be called from here
                 return Expanded(
                 child: TextButton(
-                  color: Color,
                   onPressed: (){
                     playSound(soundNumber);
                     
